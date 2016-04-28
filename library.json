@@ -1,0 +1,19 @@
+{
+  "name": "SH1106",
+  "keywords": "display, oled",
+  "description": "SH1106 Oled driver which offers scrolling frames, custom fonts, etc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rene-mt/esp8266-oled-ssd1306.git"
+  },
+  "authors": [{
+    "name": "Rene-Martin Tudyka",
+    "url": "http://www.tudyka.info",
+    "email": "dev@tudyka.info",
+    "maintainer": true
+  }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif",
+  "version": "0.0.1"
+}
