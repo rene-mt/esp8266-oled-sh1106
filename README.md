@@ -37,7 +37,7 @@ Fonts are defined in a proprietary but open format. You can create new font file
 of open sourced Fonts from this web app: http://oleddisplay.squix.ch
 Choose the font family, style and size, check the preview image and if you like what you see click the "Create" button. This will create the font array in a text area form where you can copy and paste it into a new or existing header file.
 
-![FontTool](https://github.com/squix78/esp8266-oled-ssd1306/raw/master/resources/FontTool.png)
+![FontTool](https://github.com/rene-mt/esp8266-oled-sh1106/blob/master/resources/FontTool.png)
 
 
 ## API
@@ -174,7 +174,7 @@ int getFrameState();
 ## Example: SH1106Demo
 
 ### Frame 1
-![DemoFrame1](https://github.com/rene-mt/esp8266-oled-ssd1306/raw/master/resources/DemoFrame1.jpg)
+![DemoFrame1](https://github.com/rene-mt/esp8266-oled-sh1106/blob/master/resources/DemoFrame1.jpg)
 
 This frame shows three things:
  * How to draw an xbm image
@@ -182,24 +182,24 @@ This frame shows three things:
  * The active/inactive frame indicators
 
 ### Frame 2
-![DemoFrame2](https://github.com/rene-mt/esp8266-oled-ssd1306/raw/master/resources/DemoFrame2.jpg)
+![DemoFrame2](https://github.com/rene-mt/esp8266-oled-sh1106/blob/master/resources/DemoFrame2.jpg)
 
 Currently there are one fontface with three sizes included in the library: Arial 10, 16 and 24. Once the converter is published you will be able to convert any ttf font into the used format.
 
 ### Frame 3
 
-![DemoFrame3](https://github.com/rene-mt/esp8266-oled-ssd1306/raw/master/resources/DemoFrame3.jpg)
+![DemoFrame3](https://github.com/rene-mt/esp8266-oled-sh1106/blob/master/resources/DemoFrame3.jpg)
 
 This frame demonstrates the text alignment. The coordinates in the frame show relative to which position the texts have been rendered.
 
 ### Frame 4
 
-![DemoFrame4](https://github.com/rene-mt/esp8266-oled-ssd1306/raw/master/resources/DemoFrame4.jpg)
+![DemoFrame4](https://github.com/rene-mt/esp8266-oled-sh1106/blob/master/resources/DemoFrame4.jpg)
 
 This shows how to use define a maximum width after which the driver automatically wraps a word to the next line. This comes in very handy if you have longer texts to display.
 
 ### SPI version
 
-![SPIVersion](https://github.com/rene-mt/esp8266-oled-ssd1306/raw/master/resources/SPI_version.jpg)
+![SPIVersion](https://github.com/rene-mt/esp8266-oled-sh1106/blob/master/resources/SPI_version.jpg)
 
 This shows the code working on the SPI version of the display. See demo code for ESP8266 pins used.
