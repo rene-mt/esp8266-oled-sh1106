@@ -96,8 +96,10 @@ void SH1106::setContrast(char contrast) {
 }
 
 void SH1106::flipScreenVertically() {
-  sendCommand(0xA0 | 0x1);      //SEGREMAP   //Rotate screen 180 deg
-  sendCommand(0xC8);            //COMSCANDEC  Rotate screen 180 Deg
+  sendCommand(0xA0);              //SEGREMAP   //Rotate screen 180 deg
+  sendCommand(SETCOMPINS);
+  sendCommand(0x22);
+  sendCommand(COMSCANINC);            //COMSCANDEC  Rotate screen 180 Deg
 }
 
 void SH1106::clear(void) {
@@ -390,7 +392,7 @@ void SH1106::sendInitCommands(void) {
   sendCommand(MEMORYMODE);
   sendCommand(0x00);
   sendCommand(SEGREMAP);
-  sendCommand(COMSCANINC);
+  sendCommand(COMSCANDEC);
   sendCommand(SETCOMPINS);
   sendCommand(0x12);
   sendCommand(SETCONTRAST);

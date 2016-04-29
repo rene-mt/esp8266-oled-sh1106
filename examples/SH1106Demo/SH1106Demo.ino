@@ -39,15 +39,20 @@ See more at http://blog.squix.ch
  D5 GPIO14   CLK         - D0 pin OLED display
  D6 GPIO12   MISO (DIN)  - not connected
  D7 GPIO13   MOSI (DOUT) - D1 pin OLED display
- D8 GPIO15   CS / SS     - CS pin OLED display
- D0 GPIO5    RST         - RST pin OLED display
+ D1 GPIO5    RST         - RST pin OLED display
  D2 GPIO4    DC          - DC pin OLED
+ D8 GPIO15   CS / SS     - CS pin OLED display
 */
 
 // Pin definitions for SPI
-#define OLED_RESET  5   // RESET
-#define OLED_DC     4   // Data/Command
-#define OLED_CS     15  // Chip select
+// ESP8266
+//#define OLED_RESET  5   // RESET
+//#define OLED_DC     4   // Data/Command
+//#define OLED_CS     15  // Chip select
+// Node MCU
+#define OLED_RESET  D1   // RESET
+#define OLED_DC     D2   // Data/Command
+#define OLED_CS     D8   // Chip select
 
 // Uncomment one of the following based on OLED type
 SH1106 display(true, OLED_RESET, OLED_DC, OLED_CS); // FOR SPI
