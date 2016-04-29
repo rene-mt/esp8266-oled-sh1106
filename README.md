@@ -3,7 +3,7 @@
 This is a driver for the SH1106 based 128x64 pixel OLED display running on the Arduino/ESP8266 platform.
 It has been tested with the SPI version of the display. Feedback for the I2C version is appreciated.
 
-The SH1106 is in general similar to the SSD1306. Main difference is a memory of 132x64 instead of 128x64. The main thing which differs from the SSD1306 library is the implementation of the _diplay_ function.
+The SH1106 is in general similar to the SSD1306. Main difference is a memory of 132x64 instead of 128x64. The main thing which differs from the SSD1306 library is the implementation of the _display_ function.
 
 You can either download this library as a zip file and unpack it to your Arduino/libraries folder or (once it has been added) choose it from the Arduino library manager.
 
