@@ -1,3 +1,6 @@
+> [!NOTE]
+> This project has been archived and will not be maintained anymore.
+
 # esp8266-oled-sh1106
 
 This is a driver for the SH1106 based 128x64 pixel OLED display running on the Arduino/ESP8266 platform.
